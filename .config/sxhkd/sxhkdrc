@@ -1,5 +1,6 @@
-super + Print	
+Print	
 	maim --select -u | tee ~/pics/scrns/$(date +"%Y-%m-%d-%H%M%S").png | xclip -selection clipboard -target image/png
 
-super + shift + Print	
+super + Print	
 	maim -u | tee ~/pics/scrns/$(date +"%Y-%m-%d-%H%M%S").png | xclip -selection clipboard -target image/png
+
